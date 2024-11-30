@@ -1,0 +1,178 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.bogo-offer {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6fa5;
+    margin-bottom: 20px;
+}
+
+.option {
+    width: 341px;
+    height: 74.11px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s, width 0.3s, height 0.3s;
+    position: relative;
+}
+
+
+
+.upper-text{
+
+    top: 205px;
+    left: 108.23px;
+}
+
+.option:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.option input {
+    width: 14.46px;
+    height: 14.46px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border: 0.9px solid #ccc;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.unit-label {
+    font-size: 17px; /* Refined size */
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.option .badge {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background: #ff6fa5;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: -1; /* Place behind the option */
+}
+
+.option .discount {
+    color: #ff6fa5;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+.box{
+    justify-items: center;
+}
+
+.option .price {
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+
+.option .original-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 12px;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+
+.option .selectors {
+    padding: 0 20px 0px 34px;
+    margin-top: 100px;
+    display: none;
+    height: 25.31px;
+    border-radius: 1.81px;
+}
+
+.option.selected {
+    background-color: #FFF9FA;
+    transform: scale(1.05);
+    border-color: #ff6fa5;
+    width: 314px;
+    height: 174.11px;
+    left: 0px;
+    gap: 0px;
+}
+
+.option.selected .selectors {
+    display: block;
+}
+
+.selectors{
+    font-family: Inter;
+font-size: 9.94px;
+font-weight: 400;
+line-height: 12.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.footer {
+    padding: 0 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.free-delivery {
+    color: #ff6fa5;
+    font-weight: bold;
+    text-align: left;
+}
+
+.total {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    width: 362px;
+    margin-left: 20px;
+    padding: 10px;
+    background: #FF6B82;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-to-cart:hover {
+    background: #ff578c;
+}
